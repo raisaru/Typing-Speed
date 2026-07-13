@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // <-- ADD THIS LINE HERE TO FIX THE BLANK SCREEN
+  base: '/', // <-- CHANGE THIS BACK TO A DISTRIBUTED ABSOLUTE ROOT SLASH
   plugins: [
     react(),
     tailwindcss(),
